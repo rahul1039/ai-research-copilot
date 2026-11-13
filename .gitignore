@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# Private documents
+*.pdf
+chat_memory.json
+data/
+
+# Generated indexes
+faiss_index/
+vector_store/
+
+# System files
+.DS_Store
+*.log
+.pytest_cache/
